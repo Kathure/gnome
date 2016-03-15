@@ -1,0 +1,22 @@
+header{
+    background-color: black;
+}
+h1{
+    color: yellow;
+    font-family: sans-serif
+}
+h3.head{
+    font-family: cursive;
+    color: aliceblue;
+    text-transform: lowercase;
+}
+footer{
+    background-color: black;
+    font-family: monospace;
+}
+small{
+    color: yellow;
+}
+.top{
+    background-image: url(preCourseWork/psd2html/pce1/assets/big_img.jpg);
+}
