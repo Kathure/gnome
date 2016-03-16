@@ -29,9 +29,6 @@ small{
     height: 290px;
     width: 600px
 }
-.teaser col-1-3{
-    
-}
 
 /*
   ========================================
@@ -47,19 +44,22 @@ small{
           box-sizing: border-box;
 }
 .col-1-3 {
-  width: 33.33%;
+  width: 30%;
 }
 .col-2-3 {
-  width: 66.66%;
+  width: 30%;
+}
+col-2-3{
+    width:30%;
 }
 .col-1-3,
-.col-2-3 {
+.col-2-3{
   display: inline-block;
   vertical-align: top;
 }
 .grid,
 .col-1-3,
-.col-2-3 {
+.col-2-3 , col-3-3{
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -75,7 +75,18 @@ small{
     
     
 }
-#phone, #shoes{
+#phone{
     width: 50%
     float: right;
+}
+#shoes{
+    width: 30%
+    float:right;
+
+}
+.ad{
+    width: 100%;
+    height: 100px;
+    background-color: lawngreen;
+    
 }
