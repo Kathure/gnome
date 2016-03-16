@@ -1,6 +1,10 @@
+body{
+    width: 600px
+}
 header{
     background-color: black;
 }
+
 h1{
     color: yellow;
     font-family: sans-serif
@@ -19,6 +23,8 @@ small{
 }
 .top{
     background-image: url(preCourseWork/psd2html/pce1/assets/big_img.jpg);
+    height: 290px;
+    width: 600px
 }
 .teaser col-1-3{
     
