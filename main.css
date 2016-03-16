@@ -17,9 +17,12 @@ h3.head{
 footer{
     background-color: black;
     font-family: monospace;
+    height: 100px;
+    text-align: center;
 }
 small{
     color: yellow;
+
 }
 .top{
     background-image: url(preCourseWork/psd2html/pce1/assets/big_img.jpg);
@@ -64,12 +67,15 @@ small{
   margin: 0 auto;
   width: 960px;
 }
-#sendicate{
+#sendicate, #teacup{
     width: 50%;
     float:left;
+    height: 190px;
+    image-resolution: from-image;
+    
     
 }
-#phone{
+#phone, #shoes{
     width: 50%
     float: right;
 }
