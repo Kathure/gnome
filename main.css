@@ -235,28 +235,38 @@ header{
     width: inherit;
 }
 
-h1{
-    color: yellow;
-    font-family: sans-serif
-}
 
 
 .logo {
   float: left;
-}
-
-.logo {
   border-top: 4px solid #000;
   padding: 40px 0 22px 0;
-  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  text-transform: uppercase;
+   color: yellow;
+   font-family: sans-serif;
 }
 
 h3.head{
-    font-family: cursive;
+    float: right;
+    font-family: ;
     color: aliceblue;
-    text-transform: lowercase;
     padding: 100px 0 2px 0;
-    float: right
+    
+}
+#send{
+    font-size: 30px;
+    font-weight: 250;
+    text-align: left;
+    display: inline-block;
+}
+#email{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .top{
@@ -271,11 +281,6 @@ h3.head{
   ========================================
 */
 
-.primary-footer small {
-  float: center;
-
-}
-
 .primary-footer {
   padding-bottom: 44px;
   padding-top: 44px;
@@ -284,7 +289,7 @@ h3.head{
 footer{
     background-color: black;
     font-family: monospace;
-    height: 100px;
+    height: 80px;
     text-align: center;
 }
 small{
