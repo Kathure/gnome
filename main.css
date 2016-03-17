@@ -9,11 +9,7 @@ h1{
     color: yellow;
     font-family: sans-serif
 }
-h3.head{
-    font-family: cursive;
-    color: aliceblue;
-    text-transform: lowercase;
-}
+
 footer{
     background-color: black;
     font-family: monospace;
@@ -30,6 +26,44 @@ small{
     width: 600px
 }
 
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+  float: left;
+}
+
+.logo {
+  border-top: 4px solid #000;
+  padding: 40px 0 22px 0;
+  float: left;
+}
+
+h3.head{
+    font-family: cursive;
+    color: aliceblue;
+    text-transform: lowercase;
+    padding: 100px 0 2px 0;
+    float: right
+}
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer small {
+  float: center;
+
+}
+
+.primary-footer {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
 /*
   ========================================
   Grid
@@ -91,6 +125,25 @@ col-2-3{
     
 }
 
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
 /*
   ========================================
   Buttons
@@ -106,3 +159,4 @@ col-2-3{
   border: 1px solid #dfe2e5;
   padding: 10px 30px;
 }
+
