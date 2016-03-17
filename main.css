@@ -115,7 +115,114 @@ body {
   padding: 44px 0 22px 0;
 }
 
+/*
+  ========================================
+  Typography
+  ========================================
+*/
 
+h1, h2, h3, h4 {
+  color: #648880;
+}
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+strong {
+  font-weight: 400;
+}
+cite,
+em {
+  font-style: italic;
+}
+/*  ========================================
+  Leads
+  ========================================
+*/
+
+.lead {
+  text-align: center;
+}
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+}
+/*  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: cadetblue;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+.primary-header a,
+.primary-footer a {
+  color: #000;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #000;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.btn-default {
+  border: 0;
+  background: #000;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #000;
+}
+.btn-alt {
+  border: 1px solid #000;
+  padding: 10px 30px;
+}
+.btn-alt:hover {
+  background: grey;
+  color: black;
+}
 
 
 /*
@@ -185,19 +292,4 @@ small{
 
 }
 
-/*
-  ========================================
-  Buttons
-  ========================================
-*/
-
-.btn {
-  border-radius: 5px;
-  display: inline-block;
-  margin: 0;
-}
-.btn-alt {
-  border: 1px solid #dfe2e5;
-  padding: 10px 30px;
-}
 
