@@ -3,76 +3,71 @@
   Custom styles
   ========================================
 */
+
 body {
-  background: white;
-  color: black;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  width: 600px;
-  float: left;
+    background: white;
+    color: black;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 600px;
+    float: left;
 }
+
 /*
   ========================================
   Grid
   ========================================
 */
 
-*/
-
-*,
+*/ *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .container,
 .grid {
-  margin: 0 auto;
-  width: 600px;
+    margin: 0 auto;
+    width: 600px;
 }
 .container {
-  padding-left: 30px;
-  padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .grid,
 .col-1-3,
-.col-2-3 {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+.col-2-3 {}
 .col-1-3,
-.col-2-3  {
-  display: inline-block;
-  vertical-align: top;
+.col-2-3 {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    vertical-align: top;
 }
 .col-1-3 {
-  width: 33.33%;
+    width: 33.33%;
 }
 .col-2-3 {
-  width: 66.66%;
+    width: 66.66%;
 }
-.container shoes{
-
-}
-#sendicate, #teacup{
+.container shoes {}
+#sendicate,
+#teacup {
     width: 50%;
-    float:left;
+    float: left;
     height: 190px;
     image-resolution: from-image;
 }
-#phone{
-    width: 50%
-    float: right;
+#phone {
+    width: 50% float: right;
 }
-#shoes{
-    width: 30%
-    float:right;
+#shoes {
+    width: 30% float: right;
 }
-.ad{
+.ad {
     width: 100%;
     height: 100px;
     background-color: lawngreen;
-    
 }
 
 /*
@@ -80,17 +75,18 @@ body {
   Clearfix
   ========================================
 */
+
 .group:before,
 .group:after {
-  content: "";
-  display: table;
+    content: "";
+    display: table;
 }
 .group:after {
-  clear: both;
+    clear: both;
 }
 .group {
-  clear: both;
-  *zoom: 1;
+    clear: both;
+    *zoom: 1;
 }
 
 /*
@@ -101,18 +97,18 @@ body {
 
 .row,
 .row-alt {
-  min-width: 960px;
+    min-width: 960px;
 }
 .row {
-  background: #fff;
-  padding: 66px 0 44px 0;
+    background: #fff;
+    padding: 66px 0 44px 0;
 }
 .row-alt {
-  background: #cbe2c1;
-  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
-  padding: 44px 0 22px 0;
+    background: #cbe2c1;
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    padding: 44px 0 22px 0;
 }
 
 /*
@@ -121,73 +117,82 @@ body {
   ========================================
 */
 
-h1, h2, h3, h4 {
-  color: #648880;
+h1,
+h2,
+h3,
+h4 {
+    color: #648880;
 }
-h1, h3, h4, h5, p {
-  margin-bottom: 22px;
+h1,
+h3,
+h4,
+h5,
+p {
+    margin-bottom: 22px;
 }
 h1 {
-  font-size: 36px;
-  line-height: 44px;
+    font-size: 36px;
+    line-height: 44px;
 }
 h2 {
-  font-size: 24px;
-  line-height: 44px;
+    font-size: 24px;
+    line-height: 44px;
 }
 h3 {
-  font-size: 21px;
+    font-size: 21px;
 }
 h4 {
-  font-size: 18px;
+    font-size: 18px;
 }
 h5 {
-  color: #a9b2b9;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 strong {
-  font-weight: 400;
+    font-weight: 400;
 }
 cite,
 em {
-  font-style: italic;
+    font-style: italic;
 }
+
 /*  ========================================
   Leads
   ========================================
 */
 
 .lead {
-  text-align: center;
+    text-align: center;
 }
 .lead p {
-  font-size: 21px;
-  line-height: 33px;
+    font-size: 21px;
+    line-height: 33px;
 }
+
 /*  ========================================
   Links
   ========================================
 */
 
 a {
-  color: cadetblue;
-  text-decoration: none;
+    color: cadetblue;
+    text-decoration: none;
 }
 a:hover {
-  color: #fff;
+    color: #fff;
 }
 p a {
-  border-bottom: 1px solid #dfe2e5;
+    border-bottom: 1px solid #dfe2e5;
 }
 .primary-header a,
 .primary-footer a {
-  color: #000;
+    color: #000;
 }
 .primary-header a:hover,
 .primary-footer a:hover {
-  color: #000;
+    color: #000;
 }
 
 /*
@@ -197,80 +202,74 @@ p a {
 */
 
 .btn {
-  border-radius: 5px;
-  color: black;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 400;
-  letter-spacing: .5px;
-  margin: 0;
-  text-transform: uppercase;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
 }
 .btn-default {
-  border: 0;
-  background: #000;
-  padding: 11px 30px;
-  font-size: 14px;
+    border: 0;
+    background: #000;
+    padding: 11px 30px;
+    font-size: 14px;
 }
 .btn-default:hover {
-  background: #000;
+    background: #000;
 }
 .btn-alt {
-  border: 1px solid #000;
-  padding: 10px 30px;
+    border: 1px solid #000;
+    padding: 10px 30px;
 }
 .btn-alt:hover {
-  background: grey;
-  color: black;
+    background: grey;
+    color: black;
 }
-
 
 /*
   ========================================
   Primary header
   ========================================
 */
-header{
+
+header {
     background-color: black;
     width: inherit;
 }
-
-
-
 .logo {
-  float: left;
-  border-top: 4px solid #000;
-  padding: 40px 0 22px 0;
-  font-size: 48px;
-  font-weight: 100;
-  letter-spacing: .5px;
-  line-height: 44px;
-  text-transform: uppercase;
-   color: yellow;
-   font-family: sans-serif;
+    float: left;
+    border-top: 4px solid #000;
+    padding: 40px 0 22px 0;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: yellow;
+    font-family: sans-serif;
 }
-
-h3.head{
+h3.head {
     float: right;
     font-family: ;
     color: aliceblue;
     padding: 100px 0 2px 0;
-    
 }
-#send{
+#send {
     font-size: 30px;
     font-weight: 250;
     text-align: left;
     display: inline-block;
 }
-#email{
+#email {
     font-style: italic;
     font-weight: 400;
     font-size: 14px;
 }
-
-.top{
-    background-image: url(preCourseWork/psd2html/pce1/assets/big_img.jpg);
+.top {
+    background-image: url(assets/big_img.jpg);
     height: 290px;
     width: 600px
 }
@@ -282,19 +281,15 @@ h3.head{
 */
 
 .primary-footer {
-  padding-bottom: 44px;
-  padding-top: 44px;
+    padding-bottom: 44px;
+    padding-top: 44px;
 }
-
-footer{
+footer {
     background-color: black;
     font-family: monospace;
     height: 80px;
     text-align: center;
 }
-small{
+small {
     color: yellow;
-
 }
-
-
